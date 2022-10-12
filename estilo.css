@@ -1,0 +1,236 @@
+/*###############################################################
+###################FORMATAÇÕES GERAIS###########################
+################################################################*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+#container {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+header li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+header {
+    padding: 15px;
+    background: linear-gradient(to top,#8703af, #6f0191) ;
+}
+
+header h2 {
+    float: right;
+    margin-right: 80px;
+    text-align: right;
+    font-size: 2em;
+    color: #d876e0;
+}
+
+#logo span {
+    font-size: 1em;
+    color: #fff;
+}
+
+#login input {
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+}
+
+#login #botao {
+    font-size: 0.8em;
+    width: 80px;
+    height: 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #ea7ff8;
+    color: #fff;
+}
+
+#login h4 {
+    color: #fff;
+    margin: 5px;
+}
+
+#login form {
+    padding: 25px;
+}
+
+/* ****************** Produtos e serviços ****************** */
+
+#contrate h2 {
+    width: 300px;
+    padding: 16px;
+    border-radius: 0px 30px;
+    background: rgba(116, 0, 96, 0.555);
+    margin: -50px 0px 0px 100px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#contrate2 h2 {
+    width: 300px;
+    padding: 16px;
+    border-radius: 0px 30px;
+    background: rgba(116, 0, 96, 0.555);
+    margin: -50px 0px 0px 100px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#produtos {
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 1170px;
+    height: 62px;
+}
+
+
+#produtos ul li {
+    margin-top: 8px;
+    float: left;
+    background: linear-gradient(to left,#9d0bff, #970197);
+    -moz-background: linear-gradient(to left,#9d0bff, #970197);
+    -webkit-background: linear-gradient(to left,#9d0bff, #970197);
+    -o-background: linear-gradient(to left,#9d0bff, #970197);
+    border-radius: 10px 10px 0px 0px;
+}
+
+#produtos li a {
+    color: #fff;
+    padding: 0px 10px;
+    line-height: 3em;
+}
+
+#produtos ul li:hover  {
+    background: linear-gradient(to left,#fc28d9, #ff3679);
+    margin-top: 6px;
+    height: 50px;
+    float: left;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#produtos ul .marcador {
+    margin-top: -17px;
+    height: 65px;
+    float: left;
+    background: linear-gradient(to left,#fc28d9, #ff3679);
+    -moz-background: linear-gradient(to left,#fc28d9, #ff3679);
+    -webkit-background: linear-gradient(to left,#fc28d9, #ff3679);
+    -o-background: linear-gradient(to left,#fc28d9, #ff3679);
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* conteúdo */
+article {
+    clear: both;
+}
+
+.servicos {
+    height: 640px;
+    width: 95%;
+    margin: -10px auto;
+    background: #e6e5e5;
+    border-radius: 10px;
+}
+
+.servicos h2 {
+    padding: 30px 30px 0px 30px;
+    font-size: 1.5em;
+    color: #ae5dfa;
+}
+
+.servicos h3 {
+    padding: 0px 20px 10px 30px;
+    font-size: 1em;
+    color: #727272;
+    text-transform: capitalize;
+}
+
+.servicos p {
+    width: 980px;
+    margin: 0px auto;
+    text-align: justify;
+}
+
+.servicos h4 {
+    padding: 30px 30px 0px 30px;
+    font-size: 1.1em;
+    color: #ae5dfa;
+    clear: both;
+}
+
+.back-itens {
+    width: 70%;
+    height: 25%;
+    margin: 0px auto;
+}
+
+.back-itens div {
+    padding: 10px;
+    text-align: center;
+    float: left;
+    background: rgb(235, 235, 235);
+    border-radius: 15px;
+    width: 20%;
+    height: 90%;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.274) 2px 1px 10px;
+}
+
+.back-itens div:hover {
+    padding: 10px;
+    text-align: center;
+    float: left;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 20%;
+    height: 90%;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.274) 2px 1px 10px;
+}
+
+.back-itens img {
+    opacity: 0.4;
+    width: 80%;
+}
+
+.back-itens img:hover {
+    opacity: 0.6;
+    width: 85%;
+}
+
+
+/* rodapé */
+
+footer {
+    padding-top: 70px;
+    color: #e6e5e5;
+    text-align: center;
+    height: 100px;
+    clear: both;
+    margin-top: 50px;
+    background: linear-gradient(to top,#8703af, #6f0191) ;
+}
